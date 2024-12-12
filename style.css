@@ -1,0 +1,160 @@
+:root{
+    --color : black;
+    --color2 : rgb(255, 255, 255);
+}
+body{
+    font-family:"Cairo", serif;
+}
+.color{
+    background-color: var(--color);
+}
+.list{
+
+    display: flex;
+    flex-direction: row;
+    list-style:none;
+}
+.text{
+    
+    position: absolute;
+    height: 450px;
+    background-image: linear-gradient(98deg, black, transparent);
+    
+}
+
+.carousel-inner .active .Height .text .pad1,
+.carousel-inner .active .Height .text .pad2,
+.carousel-inner .active .Height .text .pad4
+{
+
+padding: 150px 0 0 50px;
+
+}
+
+.carousel-inner .active .Height .text .pad3{
+
+padding: 200px 0 0 50px;
+
+
+}
+.carousel-item {
+    transition: transform 0.5s ease;
+}
+
+.button{
+
+    padding: 15px 30px;
+    background-color: #ffffffab;
+    background-image: linear-gradient(45deg, #000000, #000000ce);
+    color: white;
+    border-left: white;
+
+}
+.button:hover{
+
+    background-image: linear-gradient(45deg, #000000, #000000bd);
+
+}
+.change{
+
+    background-color: #000000;
+    position: relative !important;
+    width: auto ;
+    margin: 0px;
+    height: 100px;
+
+
+}
+.carousel-indicators button {
+width: 20px;
+height: 20px;
+border-radius: 50%;
+background-color: rgb(2, 1, 1);
+position: relative;
+}
+
+
+.carousel-indicators button.active::after {
+content: "";
+position: absolute;
+bottom: 0;
+left: 0;
+width: 0;
+height: 3px;
+background-color: white;
+animation: loading 5s linear ;
+}
+
+@keyframes loading {
+from {
+    width: 0%;
+}
+to {
+    width: 100%;
+}
+}
+
+.carousel-indicators label {
+color: gray;
+transition: color 0.3s ease;
+}
+.carousel-indicators label:hover{
+    cursor: pointer;
+}
+
+.carousel-indicators label.active {
+color: white;
+}
+
+
+.Height{
+
+    height: 470px;
+    background-color: #000000;
+}
+
+.base{
+    height: 500px;
+    
+    display: flex;
+    justify-content: center;
+    background-image: url(./2325906-amd-advancing-ai-044.avif)    ; 
+    background-size: cover;
+    background-position: center;
+    
+
+}
+.Advancing{
+    width: 350px;
+}
+.base .base-pad{
+    height: 500px;
+
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-image: url(./2325906-amd-advancing-ai-044.avif)    ; 
+    background-size: cover;
+    background-position: center;
+}
+.card1{
+
+    height: 400px;
+    width: 240px;
+    background-color: #27282b   ;
+    margin: 10px;
+
+
+}
+.padd{
+    padding: 0 100px 0 100px;
+    margin: 100px;
+}
+
+.img img{
+background-image: url(./2669604-homepage-epyc.avif);
+background-size: cover  ;
+width: 100%;
+ 
+    
+}
